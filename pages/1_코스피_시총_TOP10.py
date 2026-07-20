@@ -10,11 +10,11 @@ st.set_page_config(
 )
 
 render_market_page(
-    market_code="KOSPI",
+    market_code=0,
     market_name="코스피",
     page_icon="📈",
     description=(
-        "코스피 시장 시가총액 상위 10개 종목의 "
-        "가격, 등락률, 거래량 및 투자지표를 분석합니다."
+        "코스피 시가총액 상위 10개 종목의 "
+        "가격과 등락 현황을 분석합니다."
     ),
 )
