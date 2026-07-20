@@ -1,4 +1,5 @@
 streamlit
-pykrx
-plotly
 pandas
+plotly
+requests
+beautifulsoup4
